@@ -885,11 +885,11 @@ body.is-touch .container.style1 {
 }
 
 #container06 > .wrapper > .inner > :nth-child(1) {
-    width: calc(40% + (var(--gutters) / 2));
+    width: calc(60% + (var(--gutters) / 2));
 }
 
 #container06 > .wrapper > .inner > :nth-child(2) {
-    width: calc(60% + (var(--gutters) / 2));
+    width: calc(40% + (var(--gutters) / 2));
 }
 
 #container02 {
@@ -900,11 +900,11 @@ body.is-touch .container.style1 {
 }
 
 #container02 > .wrapper > .inner > :nth-child(1) {
-    width: calc(60% + (var(--gutters) / 2));
+    width: calc(40% + (var(--gutters) / 2));
 }
 
 #container02 > .wrapper > .inner > :nth-child(2) {
-    width: calc(40% + (var(--gutters) / 2));
+    width: calc(60% + (var(--gutters) / 2));
 }
 
 #container04 {
@@ -915,10 +915,25 @@ body.is-touch .container.style1 {
 }
 
 #container04 > .wrapper > .inner > :nth-child(1) {
-    width: calc(40% + (var(--gutters) / 2));
+    width: calc(60% + (var(--gutters) / 2));
 }
 
 #container04 > .wrapper > .inner > :nth-child(2) {
+    width: calc(40% + (var(--gutters) / 2));
+}
+
+#container07 {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20rect%20%7B%20fill%3A%20rgba(255,255,255,0.051)%3B%20opacity%3A%200.5%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%2250%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20%2F%3E%20%3Crect%20x%3D%2250%25%22%20y%3D%220%25%22%20width%3D%2250%25%22%20height%3D%2250%25%22%20style%3D%22opacity%3A%201%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(135deg, rgba(0,0,0,0.478) 50%, rgba(0,0,0,0.51) 50%), url('https://antoniocrorusso.github.io/PortfolioWebsite/resources/images/Wquest.png');
+    background-size: 1152px, cover, cover;
+    background-position: center, 0% 0%, 50% calc(50% - (((var(--scroll-y, 0) * 1px) - (var(--element-top, 0) * 1px)) * var(--background-parallax-intensity, 0)) );
+    background-repeat: repeat, repeat, repeat;
+}
+
+#container07 > .wrapper > .inner > :nth-child(1) {
+    width: calc(40% + (var(--gutters) / 2));
+}
+
+#container07 > .wrapper > .inner > :nth-child(2) {
     width: calc(60% + (var(--gutters) / 2));
 }
 
@@ -1513,6 +1528,16 @@ body.is-touch .container.style1 {
     }
 
     #container05 > .wrapper > .inner > :nth-child(2) {
+        min-height: 100% !important;
+        width: 100% !important;
+    }
+
+    #container07 > .wrapper > .inner > :nth-child(1) {
+        min-height: 100% !important;
+        width: 100% !important;
+    }
+
+    #container07 > .wrapper > .inner > :nth-child(2) {
         min-height: 100% !important;
         width: 100% !important;
     }
